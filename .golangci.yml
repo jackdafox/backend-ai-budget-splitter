@@ -26,12 +26,12 @@ linters-settings:
   gosec:
     excludes:
       - G104
- revive:
+  revive:
     rules:
       - name: var-naming
         severity: warning
       - name: exported
- severity: warning
+        severity: warning
   misspell:
     locale: US
 
