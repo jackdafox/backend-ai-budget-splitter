@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Budget Splitter Backend
 
 A Go-based backend service that acts as an API key rerouter, enabling organizations (up to 10 members) to track and split AI usage costs.
@@ -94,3 +95,6 @@ make test
 ## License
 
 MIT
+=======
+# backend-ai-budget-splitter
+>>>>>>> c63e8d279abf04b27a1cd0b3ba972ef248f85378
