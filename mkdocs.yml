@@ -1,0 +1,46 @@
+site_name: AI Budget Splitter Backend
+site_description: A Go-based backend service that acts as an API key rerouter for splitting AI bills among organization members.
+site_url: https://github.com/jackdafox/backend-ai-budget-splitter
+repo_name: jackdafox/backend-ai-budget-splitter
+repo_url: https://github.com/jackdafox/backend-ai-budget-splitter
+
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: light blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Configuration: getting-started/configuration.md
+    - Quick Start: getting-started/quickstart.md
+  - Architecture:
+    - Overview: architecture/overview.md
+    - Project Structure: architecture/structure.md
+    - Data Models: architecture/models.md
+  - API Reference:
+    - Authentication: api/auth.md
+    - Organization: api/organization.md
+    - Proxy: api/proxy.md
+    - Usage & Billing: api/usage-billing.md
+  - Deployment: deployment.md
+  - Contributing: contributing.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - tables
+  - toc:
+      permalink: true
